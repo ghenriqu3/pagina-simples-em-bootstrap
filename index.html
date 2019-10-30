@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caravan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    
+</head>
+<body>
+    <!-- abrir modal-->
+    
+        <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Fale Conosco</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                
+                <form> 
+                 <div class="form-group">
+                  <label for="exampleInputEmail1">Digite sua mensagem:</label>
+                    <input type="textarea" class="form-control" id="enviarMensagem" aria-describedby="emailHelp" placeholder="">
+                 </div>    
+                </form>
+                
+                <div>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">fechar</button>
+                    <button type="button" class="btn btn-primary">enviar mensagem</button>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+    <!--fechar modal-->
+    
+    <nav class="navbar navbar-expand-md fixed-top py-3 box-shadow navbar-light bg-light">
+       <a class="navbar-brand" href="index.html">
+           <img src="" alt="">
+       </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+           <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produtos</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Local.html">Blusas</a>
+                        <a class="dropdown-item" href="canecas.html">Canecas</a>
+                        <a class="dropdown-item" href="acessorios.html">Acessorios</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="Planos.html">Loja</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="Contato.html">Contato</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="Login.html" data-toggle="modal" data-target="#emailModal">Fale Conosco</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="btn btn-outline-primary ml-md-2 " href="Inscricao.html">Inscreva-se</a>
+                </li>
+           </ul>
+                
+       </div>
+        
+    </nav>
+    <section class="container-fuid">
+        <div class="row bg-dark text-white">
+          <div class="col-lg-7 p-0">
+             
+              <div id="carouselProdutos" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselProdutos" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselProdutos" data-slide-to="1"></li>
+                    <li data-target="#carouselProdutos" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="img/rick.jpg" alt="Arctic monkeys">
+                       <div class="carousel-caption">
+                        <h1 class="display-4">Rick</h1>
+                       </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="img/griffin.jpg" alt="Second slide">
+                       <div class="carousel-caption">
+                          <h3 class="display-4">culumin</h3>
+                       </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="img/jake.jpg" alt="Third slide">
+                        <div class="carousel-caption">
+                          <h3 class="display-4">Jake and Finn</h3>
+                        </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselProdutos" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselProdutos" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Proximo</span>
+                  </a>
+                </div>
+                
+          </div>
+            <div class="col-lg-5 p-5">
+              <h1 class="display-4">Aqui vai um titulo</h1>
+              <p class="lead">Aqui vai um texto</p>
+              <form action="">
+                 <div class="input-group mb-3 input-group-md">
+                  <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary" type="button" id="button-addon2">Inscrever-se</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+        </div>
+    </section>
+    
+    <section class=" py-5 bg-light">
+        <div class="container text-center">
+           <div class="my-5">
+            <span class="h6 d-block ">AQUI VAI UM TEXTO</span>
+            <h2 class=" display-4 text-primary">Aqui vai um titulo</h2>
+           </div>    
+          <div class="row">
+            <div class="col-xl-4 col-md-6">
+               <div class="d-flex justify-content-center icone">
+                 <img src="img/icones/passaporte.svg" alt="passaporte">
+               </div>
+                <h3>Documentos</h3>
+                <p>aqui vai um texto</p>
+            </div>  
+            
+            <div class="col-xl-4 col-md-6 ">
+               <div class="d-flex justify-content-center icone">
+                 <img src="img/icones/passagens.svg" alt="passagens">
+               </div>  
+                <h3>Passagens</h3>
+                <p>aqui vai um texto</p>
+            </div>  
+            
+            <div class="col-xl-4 col-md-6">
+               <div class="d-flex justify-content-center icone">
+                 <img src="img/icones/translado.svg" alt="translado">
+               </div>
+                <h3>Translado</h3>
+                <p>aqui vai um texto</p>
+            </div>  
+             <div class="col-xl-4 col-md-6">
+               <div class="d-flex justify-content-center icone">
+                 <img src="img/icones/praias.svg" alt="Praias">
+               </div>
+                <h3>Praias</h3>
+                <p>aqui vai um texto</p>
+            </div>  
+            
+            <div class="col-xl-4 col-md-6">
+               <div class="d-flex justify-content-center icone">
+                 <img src="img/icones/bagagens.svg" alt="Bagagens">
+               </div>  
+                <h3>bagagens</h3>
+                <p>aqui vai um texto</p>
+            </div>  
+            
+            <div class="col-xl-4 col-md-6">
+               <div class="d-flex justify-content-center icone">
+                 <img src="img/icones/turismo.svg" alt="turismo">
+               </div>
+                <h3>Turismo</h3>
+                <p>aqui vai um texto</p>
+            </div>  
+          </div>
+           <a href="Planos.html" class="btn btn-primary btn-lg mt-4">Comprar Plano</a>
+          
+        </div>
+    </section>
+    
+    <section id="home-quote" class="p-md-5">
+       <blockquote class="blockquote text-center text-white p-md-5 p-3">
+           <p class="display-4"><em>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</em></p>
+           <footer class="blockquote-footer text-white">aqui vai o autor</footer>
+       </blockquote>
+        
+    </section>
+    <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
